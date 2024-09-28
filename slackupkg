@@ -1,0 +1,9 @@
+#!/bin/bash
+ 
+slackpkg update
+ slackpkg install-new
+ slackpkg upgrade-all
+slackpkg clean-system
+
+
+# saved in /usr/local/bin, then run as root *slackupkg*
